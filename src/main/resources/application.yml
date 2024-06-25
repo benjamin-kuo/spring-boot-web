@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: WebApp
+
+logging:
+  level:
+    org:
+      hibernate:
+        type: trace
+        sql: DEBUG
